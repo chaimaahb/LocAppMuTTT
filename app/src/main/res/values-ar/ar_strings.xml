@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================== Home screen ===================== -->
+    <!-- Greeting at the top of the Home screen. %1$s = user's first name. -->
+    <string name="home_greeting">مرحبًا، %1$s!</string>
+    <string name="home_subtitle">مغامرتك القادمة بانتظارك!</string>
+    <string name="home_plan">تخطيط رحلة</string>
+    <string name="home_import">استيراد حجز</string>
+    <string name="home_count_prefix">لديك</string>
+    <string name="home_count_suffix">رحلات مخطط لها</string>
+    <!-- Tip below the buttons. "Plan a trip" refers to the button above. -->
+    <string name="home_tip">نصيحة: يمكنك بدء خطة رحلة جديدة بالضغط على <b>تخطيط رحلة</b>.</string>
+    <string name="home_your_trips">رحلاتك</string>
+    <string name="home_empty">لا توجد رحلات بعد.</string>
+    <string name="coming_soon">قريبًا</string>
+
+    <!-- Trip type, shown on each trip card. -->
+    <string name="trip_type_city">مدينة</string>
+    <string name="trip_type_beach">شاطئ</string>
+    <string name="trip_type_mountain">جبل</string>
+    <string name="trip_word">رحلة</string>
+
+    <!-- Countdown on each trip card. %d = number of days. -->
+    <plurals name="days_left">
+	    <item quantity="many">%d يومًا متبقيًا</item>
+	    <item quantity="few">%d أيام متبقية</item>
+	    <item quantity="zero">لا أيام متبقية</item>
+        <item quantity="one">يوم واحد متبقٍ</item>
+	    <item quantity="two">يومان متبقيان</item>
+        <item quantity="other">%d يوم متبقٍ</item>
+    </plurals>
+
+    <!-- ===================== Trip screen ===================== -->
+    <string name="trip_dates_label">التواريخ:</string>
+    <string name="trip_budget_label">الميزانية:</string>
+    <!-- %1$s = name of a person, %2$s = destination city. -->
+    <string name="trip_added_by">تمت إضافة %2$s إلى هذه الرحلة بواسطة %1$s</string>
+    <string name="trip_reminder">من المهم عدم نسيان جواز سفرك!</string>
+    <string name="trip_baggage">من الأفضل التحقق من قواعد الأمتعة لدى شركة الطيران قبل حزم حقائبك.</string>
+    <string name="trip_food">الطعام والمشروبات</string>
+    <string name="trip_where_to_stay">أماكن الإقامة</string>
+    <string name="trip_book">حجز</string>
+    <string name="trip_booked">تم إرسال الطلب إلى الفندق.</string>
+    <string name="trip_what_to_see">المعالم السياحية</string>
+    <string name="status_open">مفتوح</string>
+    <string name="trip_delete">حذف الرحلة</string>
+    <string name="trip_empty">يمكنك اختيار رحلة من تبويب الرئيسية.</string>
+
+    <!-- Confirmation dialog -->
+    <string name="dialog_delete_title">حذف الرحلة؟</string>
+    <!-- %1$s = destination city -->
+    <string name="dialog_delete_message">سيؤدي هذا إلى إزالة %1$s وجميع ملاحظات هذه الرحلة.</string>
+    <string name="dialog_delete_confirm">حذف</string>
+    <string name="dialog_cancel">إلغاء</string>
+
+    <!-- ===================== Settings screen ===================== -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_backup">نسخ الصور احتياطيًا عبر بيانات الجوال</string>
+    <string name="settings_units">وحدات المسافة</string>
+    <string-array name="units">
+        <item>كيلومترات</item>
+        <item>أميال</item>
+    </string-array>
+    <string name="settings_language_note">يستخدم TripNote لغة جهازك.</string>
+    <string name="settings_save">حفظ</string>
+    <!-- %1$s = version number, for example 1.0 -->
+    <string name="settings_version">الإصدار %1$s</string>
+
+    <!-- ===================== Bottom tabs ===================== -->
+    <!-- Bottom tab label. Max. 10 characters. -->
+    <string name="tab_home">الرئيسية</string>
+    <!-- Bottom tab label. Max. 10 characters. -->
+    <string name="tab_trip">الرحلة</string>
+    <!-- Bottom tab label. Max. 10 characters. -->
+    <string name="tab_settings">الإعدادات</string>
+</resources>
